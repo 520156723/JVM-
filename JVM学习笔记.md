@@ -7,7 +7,7 @@
 ### cup 飙高排查
 - top 找 pid 如 31638
 - 找线程。即tid
-  ps -mp 31638  -o THREAD,tid,time
+  top -H -p 15657
   top -H -p 31638
 - 转16进制 1401 -> 579
   Printf “%x\n” 1401
