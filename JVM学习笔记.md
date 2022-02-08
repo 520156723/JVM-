@@ -5,6 +5,10 @@
   - 包括启动参数等
 
 ### cup 飙高排查
+- top后 
+  按shift + p 查看cpu高占用进程
+  按shift + m 查看高内存占用进程
+  
 - top 找 pid 如 31638
 - 找线程。即tid
   top -H -p 15657
