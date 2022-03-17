@@ -16,6 +16,7 @@
   top -H -p 31638
 - 转16进制 1401 -> 579
   Printf “%x\n” 1401
+  ----
   jstack 31638 | grep 579
 - 上下10行也看看
   jstack jstack 31638 | grep 579 -A 10 -B 10
